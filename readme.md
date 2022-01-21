@@ -15,7 +15,7 @@ Design ideas and research for making a custom built compiler.
 
 ## Past Readings
 
-I lost my collection of PDFs for the following, but these were also good reads.
+I lost my collection of PDFs for the following, but these were also insightful in some ways.
 
 <ul>
   <li><em>1987. Reaction-Diffusion Textures by Witkin et al.</em></li>
