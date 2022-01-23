@@ -3,6 +3,11 @@
 
 Design ideas and research for making a custom built compiler.
 
+## Algorithms to Implement
+
+- fuzzy search
+- query planning and processing
+
 ## Borrow Checker
 
 ## Dependent Type
@@ -12,6 +17,28 @@ Design ideas and research for making a custom built compiler.
 ## Mathematical Proofs of Correctness
 
 ## Distributed Graph Database
+
+## Database Index
+
+- BK Tree
+- B+ Tree
+- Bitap Algorithm
+- Levenshtein edit distance
+- [Triangle inequality](https://medium.com/data-science-in-your-pocket/fuzzy-matching-algorithms-explained-e0ff30cc00ca)
+- Q-gram index
+- Fuzzy search index
+- Fuzzy prefix index
+- [Fuzzy word index](https://www.researchgate.net/publication/262209226_Efficient_Fuzzy_Search_in_Large_Text_Collections/link/5464b8a00cf2a8cf007bff84/download) (fuzzy inverted list)
+- Trie
+- Inverted index ([used by google](https://ad-publications.cs.uni-freiburg.de/Dissertation%20Marjan%20Celikik.pdf))
+
+### Fuzzy Search
+
+The existing state-of-the-art solutions to the query autocompletion with edit distance constraints adopt the following paradigm: indexing data strings in a trie, and traversing
+the trie incrementally to compute edit distance between the
+trie nodes and the current query, as each character of the
+query comes. Only trie nodes that satisfy the edit distance
+constraints are kept, and these nodes are called active nodes.
 
 ## Past Readings
 
