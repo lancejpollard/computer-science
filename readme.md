@@ -6,19 +6,28 @@ Design ideas and research for making a custom built compiler.
 ## Algorithms to Implement
 
 - fuzzy search
-- query planning and processing
+- query planning, cost estimation, and optimization
+- distributed query processing
+- parsing using grammars with error handling
+- Hash Join
+- Sort Merge Join
+- Index Join
+- Nested Loop Join
+- Grace Hash Join
+- typechecking
+- type inference (constraint solving and unification?)
+- database transactions
+- kind-lang calculus of constructions plus self types
+- borrow checking like in rust
+- [lifetime resolution](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html) like in rust
 
-## Borrow Checker
+### Query Planning
 
-## Dependent Type
+Almost all commercial query optimizers are based on dynamic programming in order to enumerate plans efficiently.
 
-## Symbolic Evaluation
+https://courses.cs.duke.edu/fall01/cps216/papers/kossmann-acmcs.pdf
 
-## Mathematical Proofs of Correctness
-
-## Distributed Graph Database
-
-## Database Index
+### Database Index
 
 - BK Tree
 - B+ Tree
@@ -40,7 +49,7 @@ trie nodes and the current query, as each character of the
 query comes. Only trie nodes that satisfy the edit distance
 constraints are kept, and these nodes are called active nodes.
 
-## Past Readings
+## Past Browsings
 
 I lost my collection of PDFs for the following, but these were also insightful in some ways.
 
