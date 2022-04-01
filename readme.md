@@ -1,7 +1,7 @@
 
 # Computer Science Papers
 
-Design ideas and research for making a custom built compiler, and other interesting computer science
+Design ideas and research for making a custom built compiler, and other interesting computer science.
 
 ## Algorithms to Implement
 
